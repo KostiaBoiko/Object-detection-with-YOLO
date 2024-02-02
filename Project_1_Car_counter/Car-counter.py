@@ -12,7 +12,7 @@ print(torch.backends.mps.is_available())
 cap = cv2.VideoCapture("../Videos/cars.mp4") # for video
 
 
-model = YOLO("../Yolo_weights/yolov8m.pt")
+model = YOLO("../Yolo_weights/yolov8l.pt")
 
 classNames = ["person", "bicycle", "car", "motorbike", "aeroplane", "bus", "train", "truck", "boat",
               "traffic light", "fire hydrant", "stop sign", "parking meter", "bench", "bird", "cat",
